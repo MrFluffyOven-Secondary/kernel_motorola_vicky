@@ -46,6 +46,12 @@ MTK_WLAN_SERVICE=yes
 WIFI_IP_SET=1
 WLAN_CHIP_ID=6855
 
+# Fmradio
+CFG_FM_PLAT=mt6631_6635
+CFG_FM_CHIP_ID=mt6631_6635
+FM_CHIP=mt6631_6635
+FM_PLAT=mt6631_6635
+
 # Touchscreen
 CONFIG_MTK_PANEL_NOTIFICATIONS=y
 CONFIG_INPUT_FOCALTECH_MULTI_IC_EN=y
@@ -92,6 +98,7 @@ vendor/mediatek/kernel_modules/connectivity/gps/gps_pwr
 vendor/mediatek/kernel_modules/connectivity/gps/gps_stp
 vendor/mediatek/kernel_modules/connectivity/wlan/adaptor
 vendor/mediatek/kernel_modules/connectivity/wlan/core/gen4m
+vendor/mediatek/kernel_modules/connectivity/fmradio
 vendor/mediatek/kernel_modules/gpu
 vendor/motorola/drivers/backlight/aw99703
 vendor/motorola/drivers/backlight/sm5350
